@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "fullName": "Shubham",
+        "position": "Developer",
+        "office": "Delhi",
+        "age": "22",
+        "startDate": "2023/11/04",
+        "salary": "Rs. 15,000"
+    },
+    {
+        "id": "2",
+        "fullName": "Garrett Winters",
+        "position": "Accountant",
+        "office": "Tokyo",
+        "age": "43",
+        "startDate": "2011/07/25",
+        "salary": "Rs. 10,000"
+    },
+    {
+        "id": "3",
+        "fullName": "Ashton Cox",
+        "position": "Technical Author",
+        "office": "San Francisco",
+        "age": "36",
+        "startDate": "2009/01/12",
+        "salary": "Rs. 18,000"
+    },
+    {
+        "id": "4",
+        "fullName": "Garrett Winters",
+        "position": "Accountant",
+        "office": "Tokyo",
+        "age": "43",
+        "startDate": "2011/07/25",
+        "salary": "Rs. 10,000"
+    },
+    {
+        "id": "5",
+        "fullName": "Garrett Winters",
+        "position": "Accountant",
+        "office": "Tokyo",
+        "age": "43",
+        "startDate": "2011/07/25",
+        "salary": "Rs. 10,000"
+    },
+    {
+        "id": "6",
+        "fullName": "Rahul",
+        "position": "Designer",
+        "office": "Uttarakhand",
+        "age": "34",
+        "startDate": "2009/02/12",
+        "salary": "Rs. 15,000"
+    }
+]

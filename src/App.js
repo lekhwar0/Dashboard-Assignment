@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import {
+  Dashboard,
+  StaticNavigation,
+  SidenavLight,
+  Login,
+  Register,
+  ForgotPassword,
+  Page401,
+  Page404,
+  Page500,
+  Charts,
+  Tables,
+} from "./pages";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/static-navigation" element={<StaticNavigation />} />
+        <Route path="/sidenav-light" element={<SidenavLight />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/page-401" element={<Page401 />} />
+        <Route path="/page-404" element={<Page404 />} />
+        <Route path="/page-500" element={<Page500 />} />
+        <Route path="/charts" element={<Charts />} />
+        <Route path="/tables" element={<Tables />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;

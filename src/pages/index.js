@@ -1,0 +1,11 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as SidenavLight } from "./SidenavLight";
+export { default as StaticNavigation } from "./StaticNavigation";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as ForgotPassword } from "./ForgotPassword";
+export { default as Page401 } from "./Page401";
+export { default as Page404 } from "./Page404";
+export { default as Page500 } from "./Page500";
+export { default as Tables } from "./Tables";
+export { default as Charts } from "./Charts";
